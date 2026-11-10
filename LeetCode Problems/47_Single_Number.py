@@ -1,3 +1,6 @@
+from typing import List
+import collections
+
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         dict_nums=collections.Counter(nums)

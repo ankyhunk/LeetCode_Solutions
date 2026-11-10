@@ -1,6 +1,8 @@
 class Solution:
     def getSum(self, a: int, b: int) -> int:
-        if b==0:
-            return a
-        else:
-            return getSum(a^b,(a&b)<<1)
+        # Python ints have no fixed width, so keep the carry inside 32 bits
+        # or negative inputs would loop forever.
+        mask = 0xFFFFFFFF
+        while b & mask:
+            a, b = a ^ b, (a & b) << 1
+        return a & mask if b > 0 else a

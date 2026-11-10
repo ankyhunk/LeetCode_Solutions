@@ -1,3 +1,5 @@
+import collections
+
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
         rm = collections.Counter(ransomNote)

@@ -1,3 +1,6 @@
+from itertools import zip_longest
+from typing import List
+
 class Solution:
     def multiply(self, num1: str, num2: str) -> str:
         if (num1=='0') or (num2=='0'):

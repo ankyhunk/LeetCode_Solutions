@@ -1,3 +1,5 @@
+import collections
+
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         dict_s=collections.Counter(s)
