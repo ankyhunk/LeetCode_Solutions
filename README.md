@@ -1,6 +1,6 @@
-# Jovian-LeetCode
+# LeetCode_Solutions
 
-My solutions to the 50 LeetCode problems from the Jovian Data Science Bootcamp: 42 in Python, 7 in SQL and 1 in Bash.
+My solutions to the 50 LeetCode problems : 42 in Python, 7 in SQL and 1 in Bash.
 
 Each file holds the `Solution` class (or query) submitted on LeetCode. The Python files include the imports LeetCode adds automatically (`List`, `collections`, ...), so they also run on their own.
 
