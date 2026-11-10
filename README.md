@@ -1,4 +1,4 @@
-# LeetCode_Solutions
+# LeetCode Solutions
 
 My solutions to the 50 LeetCode problems : 42 in Python, 7 in SQL and 1 in Bash.
 
